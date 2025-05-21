@@ -164,7 +164,6 @@ SELECT * from students
     WHERE dob BETWEEN '2000-01-01' and '2005-01-01' ORDER BY dob ASC;
 
 
-
 -- LIKE  (search r moto -> akta data dibo shetar moto match pele return korbe)
 -- '%' mane start e ja khushi hote pare, '%am' shesh e am jegulay ache dekhao.
 -- 'W%' start hoice W diye, shesh hobe ja khushi diye -> shegula dekhao.
