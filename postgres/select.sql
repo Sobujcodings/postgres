@@ -1,5 +1,7 @@
 -- practice of select commands
 
+-- postgreSQL Supports standard SQL plus extra powerful features, like JSON, custom types, full-text search, etc.
+
 CREATE TABLE students (
     student_id SERIAL PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
@@ -212,7 +214,6 @@ SELECT * FROM students LIMIT 5 OFFSET 5 * 3;
 -- DELETE table data (delete kore felbe any row of that value)
 DELETE FROM students
     WHERE grade = 'B' AND country = 'USA';
-
 
 
 
