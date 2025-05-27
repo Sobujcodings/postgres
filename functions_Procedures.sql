@@ -97,4 +97,3 @@ $$;
 
 CALL remove_emp_by_id(25)
 
-
